@@ -1,0 +1,15 @@
+/Users/krish/Projects/VS/Test/Test/bin/Debug/netcoreapp3.1/Test.deps.json
+/Users/krish/Projects/VS/Test/Test/bin/Debug/netcoreapp3.1/Test.runtimeconfig.json
+/Users/krish/Projects/VS/Test/Test/bin/Debug/netcoreapp3.1/Test.runtimeconfig.dev.json
+/Users/krish/Projects/VS/Test/Test/bin/Debug/netcoreapp3.1/Test.dll
+/Users/krish/Projects/VS/Test/Test/bin/Debug/netcoreapp3.1/Test.pdb
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.AssemblyInfoInputs.cache
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.AssemblyInfo.cs
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.dll
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.pdb
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.genruntimeconfig.cache
+/Users/krish/Projects/VS/Test/Test/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/krish/Projects/VS/Test/Test/bin/Debug/netcoreapp3.1/WebDriver.dll
+/Users/krish/Projects/VS/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.CopyComplete
