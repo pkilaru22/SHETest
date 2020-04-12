@@ -14,8 +14,7 @@ namespace SHETest.Pages
         private readonly RemoteWebDriver _driver;
 
         public QuickViewPage(RemoteWebDriver driver) => _driver = driver;
-
-
+        
         IWebElement QuickViewFrame => _driver.FindElementByClassName("fancybox-iframe");
         IWebElement DressModel => _driver.FindElementByXPath("//p[@id='product_reference']/span");
         IWebElement DressPrice => _driver.FindElementById("our_price_display");
@@ -24,7 +23,6 @@ namespace SHETest.Pages
         IWebElement BtnAddToCart => _driver.FindElementById("add_to_cart");
 
         
-
         public String GetDressModel()
         {
             WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
@@ -53,9 +51,6 @@ namespace SHETest.Pages
             BtnAddToCart.Click();
             return new ProductsPage(_driver);
         }
-
-      
-
-            
+        
     }
 }

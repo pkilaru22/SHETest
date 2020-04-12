@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 
 namespace SHETest.Pages
 {
     public class SummaryPage
     {
 
-        private readonly OpenQA.Selenium.Remote.RemoteWebDriver _driver;
+        private readonly RemoteWebDriver _driver;
 
-        public SummaryPage(OpenQA.Selenium.Remote.RemoteWebDriver driver) => _driver = driver;
+        public SummaryPage(RemoteWebDriver driver) => _driver = driver;
 
         public IWebElement SummaryTable => _driver.FindElementByXPath("//table");
 

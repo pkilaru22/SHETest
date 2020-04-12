@@ -1,5 +1,6 @@
 ﻿using System;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 
 namespace SHETest.Pages
@@ -7,9 +8,9 @@ namespace SHETest.Pages
     public class LoginPage
     {
 
-        private readonly OpenQA.Selenium.Remote.RemoteWebDriver _driver;
+        private readonly RemoteWebDriver _driver;
 
-        public LoginPage(OpenQA.Selenium.Remote.RemoteWebDriver driver) => _driver = driver;
+        public LoginPage(RemoteWebDriver driver) => _driver = driver;
 
         IWebElement TextEmail => _driver.FindElementById("email");
         IWebElement TextPassword => _driver.FindElementById("passwd");
